@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: aquamarine;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+
+
+container {
+    display:flex;
+    flex-direction: row;
+
+}
+.box {
+  color: white;
+  text-align: center;
+  padding: 10px 170px;
+  text-decoration: none;
+  width: 25%;
+  overflow: hidden;
+  background-color: rgb(25, 0, 116);
+}
+
+
+ .container a:hover {
+  background-color: rgb(3, 3, 3);
+}
